@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff showed me the lines of code where exist diference between 2 diferents files. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Guardar las versiones anteriores de codigo, permite no solo seguir la evolucion del codigo de un programa, permitiendo revisar como se han ido agregando las nuevas funcionalidades en el mismo, si no que permite comparar con antiguas versiones en caso que las nuevas funcionalidades no funcionen tal comose habia esperado .
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Git let compare 2 files of any Editor. Google Docs no.
+	Git can be used offline. Google Docs only works online.
+	Git let a manual save. Google Docs doesnt let it
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+    
+	Version control systems such as git are designed to save / version projects that involve several highly interrelated files between them, allowing to save in each version, a functional modification that involves the modification of either a file or several files.
+Systems like google docs is more thought to save only versions of files (type documents) in which there is no interrelation with other files of the same repository.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    
+	git log: it will allow to see all the versionados that a project has had and to order them in the time
+
+	git diff: will allow to compare 2 specific versions that we want to compare, obtaining the number of lines added and eliminated from one version to another version, as well as the changes that were introduced in the code.
+
+	
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because it allows, in case of error, return to an earlier version of the software where the error had not occurred, and also compare the wrong version with the latest correct version to detect the error entered.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   
+I would try to modify code in projects, using the versioning system of GIT, as well as explore introducing different new features in my software, without fear that one of them would break the project, because in case of problem, I can compare with a previous version where the project worked correctly and even restore it to a previous version 
