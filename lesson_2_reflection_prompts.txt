@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+
+The current version of the project is going to be version 0, as of that moment you can make commits saving the different versions of the software as we introduce functional changes in it
+
