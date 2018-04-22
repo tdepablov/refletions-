@@ -3,3 +3,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 The current version of the project is going to be version 0, as of that moment you can make commits saving the different versions of the software as we introduce functional changes in it
 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+
+is an intermediate area where once  we have modified the project files, they are added to perform the commit. It is different with respect to the repository (where the different compressed versions of the project are saved), such as the Working area (where the last version of which the commit has been made), in which it does not really save data, simply serves as a bridge between the repository and the working area 
